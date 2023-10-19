@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <h1 class="weather-title">Weather Dashboard</h1>
+  <div class="weather-wrapper">
+    <div class="weather-gap">
+      <h3 class="weather-gap__title">Enter a City Name</h3>
+      <input type="text" class="weather-gap__city" placeholder="E.g., New York, London, Tokyo">
+      <button class="weather-gap__search">Search</button>
+      <div class="separator"></div>
+      <button class="weather-gap__location">Use Current Location</button>
+    </div>
+    <div class="weather-data">
+      <div class="weather-data__current">
+        <div class="weather-data__details">
+          <h2 class="weather-data__heading">_________ ( ______ )</h2>
+          <h4 class="weather-data__info">Temperature: __°C</h4>
+          <h4 class="weather-data__info">Wind: __ M/S</h4>
+          <h4 class="weather-data__info">Humidity: __%</h4>
+        </div>
+      </div>
+      <div class="weather-data__forecasts">
+        <h2 class="weather-data__title">5-Day Forecast</h2>
+        <ul class="weather-data__cards">
+          <li class="weather-data__card">
+            <h2 class="weather-data__heading">( ______ )</h2>
+            <h4 class="weather-data__info">Temperature: __°C</h4>
+            <h4 class="weather-data__info">Wind: __ M/S</h4>
+            <h4 class="weather-data__info">Humidity: __%</h4>
+          </li>
+          <li class="weather-data__card">
+            <h3 class="weather-data__heading">( ______ )</h3>
+            <h4 class="weather-data__info">Temperature: __°C</h4>
+            <h4 class="weather-data__info">Wind: __ M/S</h4>
+            <h4 class="weather-data__info">Humidity: __%</h4>
+          </li>
+          <li class="weather-data__card">
+            <h3 class="weather-data__heading">( ______ )</h3>
+            <h4 class="weather-data__info">Temperature: __°C</h4>
+            <h4 class="weather-data__info">Wind: __ M/S</h4>
+            <h4 class="weather-data__info">Humidity: __%</h4>
+          </li>
+          <li class="weather-data__card">
+            <h3 class="weather-data__heading">( ______ )</h3>
+            <h4 class="weather-data__info">Temperature: __°C</h4>
+            <h4 class="weather-data__info">Wind: __ M/S</h4>
+            <h4 class="weather-data__info">Humidity: __%</h4>
+          </li>
+          <li class="weather-data__card">
+            <h3 class="weather-data__heading">( ______ )</h3>
+            <h4 class="weather-data__info">Temperature: __°C</h4>
+            <h4 class="weather-data__info">Wind: __ M/S</h4>
+            <h4 class="weather-data__info">Humidity: __%</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

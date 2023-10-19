@@ -1,0 +1,27 @@
+/* Responsive */
+@media (max-width: 1480px) {
+  .weather-data__current {
+    padding: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .weather-gap {
+    width: 450px;
+  }
+}
+@media (max-width: 768px) {
+  .weather-title {
+    font-size: 1.45rem;
+    padding: 16px 0;
+  }
+
+  .weather-wrapper {
+    padding: 16px 12px;
+    flex-wrap: wrap;
+  }
+
+  .weather-gap {
+    width: 100%;
+  }
+}
+/* Responsive */

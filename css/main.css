@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'OpenSans', sans-serif;
+}
+
+body {
+  background: #e3f2fd;
+}
+
+/* Weather Start */
+.weather-title {
+  padding: 18px 0;
+  color: #fff;
+  background: #5372f0;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.weather-wrapper {
+  margin: 0 auto;
+  padding: 30px 12px;
+  max-width: 1624px;
+  width: 100%;
+  display: flex;
+  gap: 36px;
+}
+
+.weather-gap {
+  width: 550px;
+}
+
+.weather-gap__city {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  margin: 10px 0 20px;
+  padding: 0 16px;
+  width: 100%;
+  height: 46px;
+  font-size: 1.07rem;
+}
+
+.weather-gap__search,
+.weather-gap__location {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  background: #5372f0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 26px 0;
+  width: 100%;
+  height: 1px;
+  background: #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator::before {
+  content: 'or';
+  margin-top: -4px;
+  padding: 0 16px;
+  color: #6c757d;
+  background: #e3f2fd;
+  font-size: 1.18rem;
+}
+
+.weather-gap__location {
+  background: #6c757d;
+}
+
+.weather-data {
+  width: 100%;
+}
+
+.weather-data__current {
+  border-radius: 6px;
+  padding: 20px 70px 20px 20px;
+  color: #fff;
+  background: #5372f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-data__heading {
+  font-size: 1.7rem;
+}
+
+.weather-data__info {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.weather-data__icon {
+  text-align: center;
+}
+
+.weather-data__img {
+  margin-top: -16px;
+  max-width: 120px;
+}
+
+.weather-data__subtitle {
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+
+.weather-data__title {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.weather-data__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.weather-data__card {
+  border-radius: 6px;
+  padding: 18px 16px;
+  color: #fff;
+  background: #6c757d;
+  list-style: none;
+}
+
+.weather-data__card-img {
+  margin: 6px 0 -12px 0;
+  max-width: 70px;
+}
+/* Weather End */
